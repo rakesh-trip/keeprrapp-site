@@ -169,6 +169,20 @@ main {
   text-decoration: underline;
 }
 
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.footer-nav span {
+  color: var(--text-muted);
+  user-select: none;
+}
+
 /* Back link */
 .back-link {
   display: inline-flex;
